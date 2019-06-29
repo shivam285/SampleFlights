@@ -88,8 +88,9 @@ extension FlightsListViewController : FlightsListViewModelDelegate {
     func flightsListViewModel(_ viewModel: FlightsListViewModel, failedToFetchFlightData error: Error) {
         DispatchQueue.main.async {
             self.aiActivityIndicator.stopAnimating()
+            ValidationUtils.show(error: error, title: "Error!", target: self)
         }
-        print(error.localizedDescription)
+        
     }
     
 }

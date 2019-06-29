@@ -22,6 +22,7 @@
 		17D794CE22C4CA0D000EC1CF /* FlightDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D794CC22C4CA0D000EC1CF /* FlightDataTableViewCell.swift */; };
 		17D794CF22C4CA0D000EC1CF /* FlightDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D794CD22C4CA0D000EC1CF /* FlightDataTableViewCell.xib */; };
 		17D794EE22C69579000EC1CF /* NetorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D794ED22C69579000EC1CF /* NetorkManager.swift */; };
+		17D794F122C79932000EC1CF /* ValidationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D794F022C79932000EC1CF /* ValidationUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		17D794CC22C4CA0D000EC1CF /* FlightDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDataTableViewCell.swift; sourceTree = "<group>"; };
 		17D794CD22C4CA0D000EC1CF /* FlightDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightDataTableViewCell.xib; sourceTree = "<group>"; };
 		17D794ED22C69579000EC1CF /* NetorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetorkManager.swift; sourceTree = "<group>"; };
+		17D794F022C79932000EC1CF /* ValidationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		17D7949F22C3E4F0000EC1CF /* FlightsApp */ = {
 			isa = PBXGroup;
 			children = (
+				17D794EF22C7992B000EC1CF /* ValidationUtils */,
 				17D794EC22C6956E000EC1CF /* NetorkManager */,
 				17D794B222C3E570000EC1CF /* FlightsList */,
 				17D794A022C3E4F0000EC1CF /* AppDelegate.swift */,
@@ -182,6 +185,14 @@
 			path = NetorkManager;
 			sourceTree = "<group>";
 		};
+		17D794EF22C7992B000EC1CF /* ValidationUtils */ = {
+			isa = PBXGroup;
+			children = (
+				17D794F022C79932000EC1CF /* ValidationUtils.swift */,
+			);
+			path = ValidationUtils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,6 +274,7 @@
 				17D794C822C3E988000EC1CF /* FlightDataItemViewModel.swift in Sources */,
 				17D794A322C3E4F0000EC1CF /* ViewController.swift in Sources */,
 				17D794A122C3E4F0000EC1CF /* AppDelegate.swift in Sources */,
+				17D794F122C79932000EC1CF /* ValidationUtils.swift in Sources */,
 				17D794BA22C3E614000EC1CF /* FlightsListViewModel.swift in Sources */,
 				17D794B722C3E58E000EC1CF /* FlightsListViewController.swift in Sources */,
 			);
